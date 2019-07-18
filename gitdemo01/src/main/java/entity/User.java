@@ -9,6 +9,15 @@ package entity;
 public class User {
     private String id;
     private String uname;
+    private  String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getId() {
         return id;
